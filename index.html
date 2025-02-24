@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f8f8;
+        }
+
+        .card {
+            width: 698px;
+            height: 140px;
+            display: flex;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 16px;
+        }
+
+        .image-container {
+            width: 140px;
+            height: 140px;
+            background: #ccc; /* Placeholder color */
+            border-radius: 8px 0 0 8px;
+        }
+
+        .content-container {
+            width: 495px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-left: 32px;
+        }
+
+        .text-container {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .title {
+            font-family: 'Mulish', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #000;
+        }
+
+        .subtitle {
+            font-family: 'Mulish', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.8);
+        }
+
+        .button-container {
+            display: flex;
+        }
+
+        .button {
+            background: #102A56;
+            color: #ffffff;
+            font-family: 'Mulish', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 6px 12px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background: #0c2040;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="image-container">
+            <!-- Placeholder for image -->
+        </div>
+        <div class="content-container">
+            <div class="text-container">
+                <div class="title">Card Title</div>
+                <div class="subtitle">This is a subtitle for the card.</div>
+            </div>
+            <div class="button-container">
+                <a href="https://execufy.mn.co/spaces/18078774/page" class="button">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
